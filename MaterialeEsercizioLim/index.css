@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 50px 170px 50px 170px;
+  padding: 90px;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+}
+
+img{
+  width: 250px;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(29, 219, 5);
+  font-size: 36px;
+  line-height: 5px;
+}
+
+nav>div{
+  background-color: rgb(29, 219, 5);
+  padding: 10px;
+  text-align: center;
+}
+
+main{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section span{
+  font-size: 20px;
+}
+
+input[type="checkbox"]{
+  margin-top: 30px;
+}
+
+section div{
+  height: 35px;
+  border-radius: 8px;
+}
+
+span + p:before{
+  content:"\21A6";
+}
+
+p{
+  line-height: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.rettangolo1{
+  width: 310px;
+  background-color: rgb(241, 165, 66);
+}
+
+.rettangolo2{
+  width: 580px;
+  background-color: rgb(35, 187, 23);
+}
+
+.rettangolo3{
+  width: 200px;
+  background-color: rgb(174, 45, 50);
+}
